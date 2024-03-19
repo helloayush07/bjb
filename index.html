@@ -1,0 +1,161 @@
+<!-- page1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page 1</title>
+</head>
+<body>
+
+
+
+
+    <div class="form-container">
+        <h2>Book Your Ticket</h2>
+        <form  action="ticket.html" method="get">
+          <div class="form-group">
+            <label for="name">Username:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Date Of Traveling:</label>
+            <input type="text" id="date" name="date" placeholder="Date Of Traveling" required>
+          </div>
+
+          <div class="form-group">
+            <label for="date">No Of Tickets:</label>
+            <input type="text" id="date" name="date" placeholder="No Of Tickets" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Destination :</label>
+            <input type="text" id="date" name="date" placeholder="Enter Desination" required>
+          </div>
+          
+          <button type="submit" value="Submit">BOOK NOW</button>
+        </form>
+      </div>
+      
+    
+   <style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333333;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Startup company feeling */
+
+body {
+  background-color: #f0f0f0;
+}
+
+.form-container {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ffb300;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+label {
+  color: #333333;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #f8f8f8;
+  color: #333333;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box; /* Added box-sizing property */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ffffff;
+  color: #333333;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+}
+
+button {
+  background-color: #ffb300;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffb300;
+}
+
+   </style>
+</body>
+</html>
